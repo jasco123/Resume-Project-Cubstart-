@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <title>Jesus Medina Obledo</title>
+</head>
+<body>
+    <div id=container>
+        <!-- Question 0. Add an image here (a picture of you!) Make sure it's a square. -->
+        <!-- A: the src attribute tells the browser where to get your image from-->
+        <div class="image-wrapper">
+            <img src = "IMG_6406.JPG"/>
+        </div>
+        <h1>Jesus Medina Obledo</h1>
+        <!-- Question 1. Add headings to each of these sections! Make this heading smaller than your name.-->
+        <section id="education">
+            <h2>Education</h2>
+            <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
+            <p> <b> University of California, Berkeley,</b> <em> Computer Science, </em>  BA, 2022 - Present </p>
+            <p> <b> Modesto Junior College,</b> <em> Computer Science, </em>  AS, 2019-2022 </p>
+            <p> <b> Modesto Junior College,</b> <em> Physics, </em>  AS, 2019-2022 </p>
+            <p> <b> Modesto Junior College,</b> <em> Mathematics, </em>  AS, 2019-2022 </p>
+            <p>Coursework: 61A, 61B, 61C, ENGIN 26 and CS70</p>
+
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-wrapper">
+
+            <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
+            <!-- we use classes instead of id's because we have multiple classes of "experience-list-item" and only 1 "experience" -->
+
+                <div class="experience-list-item">
+                    <h3>Pie Robotics </h3>
+                        <ul>
+                        <!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                            <li>Used C/C++ to create physical sensors with the use of prototype boards for scoring on a robotics field </li>
+                            <li>Integrated Python and Javascript in order to properly display sensor data over the air</li>
+                            <li>Used soldering techniques and Electrical Engineering knowledge to complete circuits for scoring</li>
+                        </ul>
+                </div>
+
+
+                <div class="experience-list-item">
+                    <h3>Lawrence Hall of Science Internship</h3>
+                        <ul>
+                            <li>Taught kids math and science through interactive activities</li>
+                            <li>Used knowledge in engineering to create fun activities for visitors of the Hall</li>
+                            <li>Used knowledge of physics and math to explain the forces of gravity and how to build model rockets</li>
+                        </ul>
+                </div>
+
+
+                <div class="experience-list-item">
+                    <h3>ASMJC Senator</h3>
+                        <ul>
+                            <li>Helped run student led programs for underrepresented hispanic students </li>
+                            <li>Spoke at MJC Hispanic Education Conference in a panel to help first generation students navigate college</li>
+                            <li>Contributed to organizing a weekly food pantry for students</li>
+                        </ul>
+                </div>
+
+
+            <!-- Question 3c. Create a div that contains all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class = "project-wrapper">
+                <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
+                <div class="project-list-item">
+                    <h3>Self Tying Shoe</h3>
+                        <p>Created a custom PCB using the ATmega328p alongside programming it in C/C++. paired with 2 buttons, 
+                    a pressure resistor, an led, and a high torque motor the shoe can detect when a foot is in the shoe and 
+                    properly adjust the shoe's tightness with a 3d printed connector piece and case. </p>
+                </div>
+                <div class="project-list-item">
+                    <h3>Auto Adjusting Telescope</h3>
+                    <p>Written in Python, along with 2 servo motors on a custom PCB and 3d printed case. The telescope can 
+                    automatically adjust to the moon's location. Allows for clearer pictures when conducting astrophotography. </p>
+                </div>
+                <div class="project-list-item">
+                    <h3>Bicycle Speedometer</h3>
+                    <p>A magnet is attached to inner wheel of a bicycle and alongside a hall effect sensor an arduino board is 
+                    able to detect when a full revolution has been made on the wheel. Along with some basic physics the 
+                    postion, velocity, and acceleration of the bicycle is displayed on lcd screen. 
+                    </p>
+                </div>
+            <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
+            </div>
+
+        </section>
+        <section id="contact">
+            <h2>contact</h2>
+            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
+            <p>You can contact me here!</p>
+            <a href = https://www.instagram.com/jesseomedina/> Here's my Gram</a>
+        </section>
+    </div>
+</body>
+</html>
